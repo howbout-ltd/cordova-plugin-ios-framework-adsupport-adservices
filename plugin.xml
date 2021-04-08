@@ -20,5 +20,6 @@
         <header-file src="src/ios/iOSFrameworks.h" />
         <source-file src="src/ios/iOSFrameworks.m" />
         <framework src="AdSupport.framework" />
+        <framework src="AdServices.framework" />
     </platform>
 </plugin>
