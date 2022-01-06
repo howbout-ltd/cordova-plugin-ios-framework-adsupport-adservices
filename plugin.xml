@@ -19,7 +19,7 @@
         </config-file>
         <header-file src="src/ios/iOSFrameworks.h" />
         <source-file src="src/ios/iOSFrameworks.m" />
-        <framework src="AdSupport.framework" />
-        <framework src="AdServices.framework" />
+        <framework src="AdSupport.framework" weak="true" />
+        <framework src="AdServices.framework" weak="true" />
     </platform>
 </plugin>
